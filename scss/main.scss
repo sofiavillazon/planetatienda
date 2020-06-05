@@ -367,7 +367,7 @@ width: 90%;
 .separador{
     width: 100%;
     border-bottom: 1px solid $gray;
-    margin: 5px 0px 19px 0px;
+    margin: 5px 0px 9px 0px;
 }
 .form-check{
     font-size: $darkGray;
@@ -900,7 +900,7 @@ c
   padding: 0px;
   border-radius: 15px;
   // height: calc(100vh - 100px);
-  margin: 30px auto;
+  margin: 23px auto;
   top: 19px;
   -moz-transform: translate(0%, 0);
   -ms-transform: translate(0%, 0);
@@ -926,10 +926,10 @@ textarea:focus, input:focus,select:focus{
 }
 
 .bgAwesomeRegister select{
-   height: 50px;
+   height: 31px;
    cursor: pointer;
-   padding-top: 17px !important;
-   padding-left: 10px !important;
+   padding-top: 0px !important;
+   padding-left: 2px !important;
    display:inline-block;
    position:relative;
 }
@@ -951,9 +951,9 @@ textarea:focus, input:focus,select:focus{
 //  color: $darkPurple;
  font-weight: 100;
  letter-spacing: 0.01em;
- font-size: 17px;
+ font-size: 16px;
  box-sizing: border-box;
- padding: 10px 15px;
+ padding: 10px 6px;
  display: block;
  position: absolute;
  margin-top: -40px;
@@ -970,11 +970,11 @@ textarea:focus, input:focus,select:focus{
  border-right: 0px solid $darkPurple;
  border-left: 0px solid $darkPurple;
  line-height: 0;
- font-size: 17px;
+ font-size: 16px;
  width: 100%;
  display: block;
  box-sizing: border-box;
- padding: 10px 15px;
+ padding: 4px 6px;
  border-radius: 0px;
  color: $gray;
  font-weight: 100;
@@ -998,19 +998,19 @@ textarea:focus, input:focus,select:focus{
  margin-top: 0px ;
 }
 .awesomePlanetForm .inputlight input:focus ~ label,.awesomePlanetFormRegister .inputlight input:focus ~ label,.bgAwesomeRegister select:focus ~ label{
- -moz-transform: translate(0, -25px);
- -ms-transform: translate(0, -25px);
- -webkit-transform: translate(0, -25px);
- transform: translate(0, -25px);
+ -moz-transform: translate(0, -15px);
+ -ms-transform: translate(0, -15px);
+ -webkit-transform: translate(0, -15px);
+ transform: translate(0, -15px);
  color: $darkGray !important;
 }
 .awesomePlanetForm .inputlight input:valid ~ label, .awesomePlanetFormRegister .inputlight input:valid ~ label,.bgAwesomeRegister select:valid ~ label{
 //  text-transform: uppercase;
  font-weight: 700;
- -moz-transform: translate(5px, -25px) scale(0.6);
- -ms-transform: translate(5px, -25px) scale(0.6);
- -webkit-transform: translate(5px, -25px) scale(0.6);
- transform: translate(2px, -25px) scale(0.9);
+ -moz-transform: translate(5px, -15px) scale(0.6);
+ -ms-transform: translate(5px, -15px) scale(0.6);
+ -webkit-transform: translate(5px, -15px) scale(0.6);
+ transform: translate(2px, -15px) scale(0.9);
  color: $blue !important;
 }
 
@@ -1786,7 +1786,7 @@ textarea:focus, input:focus,select:focus{
     border-radius: 15px;
     padding: 20px;
     background-size: 0 0;
-    
+    min-height: 260px;
   }
   .bgRegister .textInfo {
     position: initial;

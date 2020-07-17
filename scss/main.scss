@@ -373,7 +373,6 @@ width: 90%;
     font-size: $darkGray;
     font-size: 13px;
     line-height: 15px;
-
 }
 .tittleForm{
   margin-top: 60px;
@@ -962,7 +961,7 @@ textarea:focus, input:focus,select:focus{
  color: $darkGray
 }
 
-.awesomePlanetForm .inputlight input,.awesomePlanetFormRegister .inputlight input,.bgAwesomeRegister select{
+.awesomePlanetForm .inputlight input,.awesomePlanetFormRegister .inputlight input{
  appearance: none;
  background-color: none;
  border-bottom: 1px solid #828282;;
@@ -981,11 +980,21 @@ textarea:focus, input:focus,select:focus{
  letter-spacing: 0.01em;
  position: relative;
  z-index: 1;
- color: $darkGray !important;
 }
 .bgAwesomeRegister select{
-  padding: 10px 0px;
+  color: $darkGray!important;
+  display: block;
+  width: 100%;
+  background-color: none;
+  border-bottom: 1px solid #828282;;
+  border-top: 0px solid $darkPurple;
+  border-right: 0px solid $darkPurple;
+  border-left: 0px solid $darkPurple;
+  // appearance: none;
+  border-bottom: 1px solid #828282;;
+  
 }
+
 .awesomePlanetForm .inputlight input[type="text"]:focus,.awesomePlanetForm .inputlight input[type="email"]:focus,.bgAwesomeRegister select:focus
 ,.awesomePlanetFormRegister .inputlight input[type="text"]:focus,.awesomePlanetFormRegister .inputlight input[type="email"]:focus{
  outline: none;
@@ -3234,3 +3243,4 @@ textarea:focus, input:focus, input:hover, button:focus{
     margin-bottom: 5px;
   }
 }
+

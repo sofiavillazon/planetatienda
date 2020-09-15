@@ -1715,9 +1715,16 @@ textarea:focus, input:focus,select:focus{
   .hidden-900{
     display: none;
   }
+}
+
+@media (max-width: 1025px){
+  .bg-purple .bgWhite {
+    display: none;
+  }
   
 }
   @media (max-width: 1024px){
+
   .container {
     max-width: 100%;
     background-color: #e1e1e1cc;
@@ -3244,3 +3251,44 @@ textarea:focus, input:focus, input:hover, button:focus{
   }
 }
 
+
+// nuevo comercio
+.bg-purple{
+  .bgContainer:hover{
+    cursor: pointer;
+    background-color: $lightfootter;
+    p, h2{
+      color: $white;
+    }
+  }
+  .height-content{
+    padding: 20px 70px;
+    background-color: #303C69;
+  }
+  .whitext span, .whitext h1{
+    color: $white!important;
+  }
+  .iconComercio{
+    border-radius: 15px;
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+  }
+  .floatImg{
+    padding: 20px 70px;
+    z-index: 5;
+    position: fixed;
+    top: calc(50vh - 247px);
+    left: calc(50vw - 760px);
+    img{
+      width: 620px;
+      min-width: 150px;
+    }
+  }
+  .textCom{
+    color: #8A82BF;
+    font-size: 25px;
+    width: 350px;
+    line-height: 24px;
+  }
+}

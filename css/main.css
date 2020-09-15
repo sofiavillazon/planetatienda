@@ -1479,6 +1479,10 @@ textarea:focus, input:focus, select:focus {
   .hidden-900 {
     display: none; } }
 
+@media (max-width: 1025px) {
+  .bg-purple .bgWhite {
+    display: none; } }
+
 @media (max-width: 1024px) {
   .container {
     max-width: 100%;
@@ -2693,3 +2697,38 @@ textarea:focus, input:focus, input:hover, button:focus {
     font-size: 15px;
     font-weight: 200;
     margin-bottom: 5px; }
+
+.bg-purple .bgContainer:hover {
+  cursor: pointer;
+  background-color: #232F3E; }
+  .bg-purple .bgContainer:hover p, .bg-purple .bgContainer:hover h2 {
+    color: #ffffff; }
+
+.bg-purple .height-content {
+  padding: 20px 70px;
+  background-color: #303C69; }
+
+.bg-purple .whitext span, .bg-purple .whitext h1 {
+  color: #ffffff !important; }
+
+.bg-purple .iconComercio {
+  border-radius: 15px;
+  width: 60px;
+  height: 60px;
+  background-size: cover; }
+
+.bg-purple .floatImg {
+  padding: 20px 70px;
+  z-index: 5;
+  position: fixed;
+  top: calc(50vh - 247px);
+  left: calc(50vw - 760px); }
+  .bg-purple .floatImg img {
+    width: 620px;
+    min-width: 150px; }
+
+.bg-purple .textCom {
+  color: #8A82BF;
+  font-size: 25px;
+  width: 350px;
+  line-height: 24px; }
